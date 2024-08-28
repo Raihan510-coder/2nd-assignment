@@ -1,0 +1,15 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.display-flex{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 3rem;
+}
+nav li a {
+    text-decoration: none;
+}
