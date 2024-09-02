@@ -234,13 +234,13 @@ nav{
 .v{
     font-size:48px ;
     font-weight: 900;
-    color: ;
+    color: gray;
     margin-bottom: 14px;
 }
 .x{
     font-size: 14px;
     font-weight: 400;
-    color: ;
+    color: gray;
     margin-bottom: 34px;
 }
 .foul{
@@ -274,13 +274,13 @@ nav{
 .e{
     font-size: 3rem;
     font-weight:900 ;
-    color: ;
+    color:gray ;
     text-align: center;
 }
 .f{
     font-size:1rem ;
     font-weight:400 ;
-    color: ;
+    color:gray;
     text-align: center;
 }
 .g{
