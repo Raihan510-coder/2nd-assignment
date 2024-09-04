@@ -47,7 +47,11 @@ nav{
     background-color: wheat;
     /* background-image: url("../images/Images\ 2.png"); */
     /* background-repeat: no-repeat; */
+    margin-left: 80px;
     
+}
+.hulk{
+    margin-left: 220px;
 }
 .one{
     color: darkgrey;
@@ -213,6 +217,8 @@ nav{
 
 .color{
     background-color: aliceblue;
+    /* height: 2300px; */
+    width: 1400px;
 }
 .you{
     height: 312px;
@@ -289,11 +295,26 @@ nav{
     margin-top: 60px;
     border-radius: 20px;
 }
+.master{
+    display: flex;
+    justify-content: center;
+    
+}
+nav div li {
+    list-style: none;
+    /* text-decoration: none; */
+}
+nav div li a {
+    text-decoration: none;
+}
+
 /* .a{ */
    
 /* } */
 @media screen and (max-width:576px) {
-   
+    .master{
+        flex-direction: column;
+    }
     .pic{
         margin-top: 750px;
         margin-left: 10px;
