@@ -11,9 +11,6 @@ nav li {
     margin-right: 3rem;
     margin-top: 12px;
     margin-left: 10px;
-   
-    
-
 }
 nav li a {
     text-decoration: none;
@@ -63,7 +60,18 @@ nav{
     display: block;
     height: 580px;
     width: 350px;
-    margin: 0px 0px 0px 100px;
+    /* margin: 0px 0px 0px 100px; */
+    margin-left: 120px;
+}
+.lalu{
+    height: 580px;
+    width: 700px;
+    /* border: 1px solid black; */
+}
+.hablu{
+    display: flex;
+    /* gap: 2px; */
+    position: relative;
 }
 .a1{
    width: 100px;
@@ -74,6 +82,7 @@ nav{
 }
 .div{
     display: flex;
+    gap: 150px;
 }
 .two{
     color: dimgray;
@@ -82,6 +91,8 @@ nav{
     height: 282px;
     width: 520px;
     margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 .three{
     height: 48px;
@@ -89,7 +100,7 @@ nav{
     font-size: 1rem;
     font-weight: 400;
     margin-left: 50px;
-    margin-top: 28px;
+    /* margin-top: 10px; */
     color: darkgray;
 }
 .four{
@@ -100,7 +111,12 @@ nav{
     color:darkgrey;
     background-color: darkcyan;
     border: none;
+    /* margin-top: 2px; */
    
+}
+.flex{
+    display: flex;
+    gap: 20px;
 }
 .five{
     width: 224px;
@@ -109,15 +125,21 @@ nav{
     color:darkgrey;
     border: none;
 }
+.bablu{
+    width: 600px;
+    height: 450px;
+    /* border: 1px solid black; */
+}
 .something{
+    position: absolute;
     height: 100px;
-    width: 450px;
+    width: 200px;
     border:none;
     border-radius: 12px;
     background-color: white;
-    margin-right: 50px;
-    margin-left: 0px;
-    margin-top: 100px;
+    /* margin-right: 50px; */
+    margin-left: 330px;
+    margin-top: 120px;
 
 }
 .some{
@@ -155,9 +177,12 @@ nav{
     height: 24px;
     font-size: 24px;
     font-weight: 900;
-    margin-top: 10px;
+    margin-top: 5px;
    margin-bottom: 0px;
    color: aliceblue;
+   /* text-align: center; */
+   margin-left: 35px;
+   /* border: 1px solid black; */
 }
 .th{
     width: 108px;
@@ -167,12 +192,23 @@ nav{
     /* text-align: center; */
    color:whitesmoke;
    /* margin-bottom: 300px; */
+   margin-left: 35px;
    margin-top: 5px;
+   /* text-align: center; */
+   margin-bottom: 20px;
+   /* border: 1px solid black; */
 }
 .st{
-    height: 56px;
-    width: 108px;
-    margin: 15px 5px 10px 60px;
+    position: absolute;
+    /* right: 30px; */
+   /* margin-right: 100px; */
+   margin-left: 40px;
+    bottom: 50px;
+    height: 100px;
+    width: 150px;
+    /* margin: 15px 5px 10px 60px; */
+    background-color: darkgrey;
+    border-radius: 12px;
 }
 
 .head{
@@ -218,7 +254,7 @@ nav{
 .color{
     background-color: aliceblue;
     /* height: 2300px; */
-    width: 1400px;
+   
 }
 .you{
     height: 312px;
@@ -234,7 +270,7 @@ nav{
     margin-top: 100px;
     justify-content: center;
     border-radius: 30px;
-    gap: 100px;
+    gap: 150px;
 }
 .v{
     font-size:48px ;
@@ -262,10 +298,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 330px);
     gap: 10px;
-    justify-content: center;
-    align-items: center;
-    
-   
+    justify-content: center; 
     
 }
 
@@ -281,23 +314,30 @@ nav{
     font-weight:900 ;
     color:gray ;
     text-align: center;
+    margin-top: 88px;
 }
 .f{
     font-size:1rem ;
     font-weight:400 ;
     color:gray;
     text-align: center;
+    margin-top: 14px;
+    margin-bottom: 58px;
 }
 .g{
     background-color: aquamarine;
     width: 1100px;
     height: 600px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     border-radius: 20px;
+    align-content: center;
+    /* justify-content: center; */
+    margin-bottom: 88px;
 }
 .master{
     display: flex;
     justify-content: center;
+    gap: 100px;
     
 }
 nav div li {
@@ -306,60 +346,163 @@ nav div li {
 }
 nav div li a {
     text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+}
+.abul, .babul, .cabul, .dabul, .eabul, .fabul{
+    position: relative;
+}
+.low{
+    position: absolute;
+  top: 180px;
+  left: 15px;
+  width: 210px;
+  height: 24px;
+  color: white;
+  font-size:20px ;
+  font-weight:900 ;
+}
+.high{
+    position: absolute;
+  top: 200px;
+  left: 15px;
+  width: 47px;
+  height: 17px;
+  color: white;
+  font-size:14px ;
+  font-weight:400 ;
+}
+.alu{
+    font-size:70px ;
+    font-weight:1000 ;
+    margin-bottom: 20px;
+}
+.blu{
+    font-size: 14px ;
+    font-weight: 400 ;
+}
+.clu{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.foot{
+    background-color: antiquewhite;
+    height: 450px;
+}
+hr{
+    width: 1060px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.pandu{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.boll{
+    /* height: 40px; */
+    /* width: 40px; */
+    /* background-color: brown; */
+}
+.fa-circle-dot{
+    font-size: 40px;
+    /* border: 1px solid black; */
+    margin-left: 35px;
+    color:black;
+    margin-top: 4px;
 }
 
 /* .a{ */
    
 /* } */
 @media screen and (max-width:576px) {
+    .display-flex{
+        margin-left: 15px;
+    }
+    .st{
+        height:100px ;
+        width:150px ;
+        margin-left: 50px;
+    }
+    .div{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foot{
+        height: 100%;
+    }
     .master{
         flex-direction: column;
+        gap: 10px;
+    }
+    hr{
+        width: 80%;
+        /* margin-bottom:40px ; */
+        margin-top:40px;
+    }
+    .pandu{
+        margin-top: 10px;
     }
     .pic{
-        margin-top: 750px;
-        margin-left: 10px;
-        height: auto;
-        width: auto;
+        /* margin-top: 750px; */
+        /* margin-left: 10px; */
+        height: 50%;
+        width: 50%;
     }
     .header{
-        height: 2050px;
-        width: 500px;
+        height:100%;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .hulk{
+        margin-left: 0px;
     }
     .nav{
         margin-left: 0px;
         margin-right: 0px;
         justify-content: space-evenly;
     }
-    .two,
+    .two
+    {
+        /* margin-left: 20px; */
+        height: 50%;
+        width: 100%;
+        margin-left: 15px;
+        margin-top: 5px;
+        /* margin-bottom: 10px; */
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
     .three{
-        margin-left: 0px;
-        height: auto;
-        width: auto;
+        margin-left:15px ;
+        font-size:10px ;
+        margin-top: 5px;
     }
     .four{
-        margin-left: 0px ;
-        width: 124px;
+        margin-left: 15px ;
+        width: 40%;
     }
     .five{
        
-        width: 124px;
+        width: 40%;
     }
     .grid{
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 10px;
+        margin-left: 130px;
     }
     .head{
         /* margin: auto; */
-        /* margin-left: 5px; */
-        text-align: start;
+        margin-left: 20px;
+        /* text-align: start; */
     }
     .pra{
         /* margin: auto; */
-        /* margin-left: 5px; */
-        text-align: start;
+        margin-left: 20px;
+        /* text-align: start; */
     }
     .temp{
        width: 100%;
+      
     }
     .section{
         flex-direction: column;
@@ -371,11 +514,66 @@ nav div li a {
    }
    .b{
     grid-template-columns:repeat(1, 1fr);
+    /* justify-content: none; */
+    margin-left:60px;
+    margin-top: 30px;
+    margin-bottom:30px;
    }
    .g{
     width: 100%;
     height: 100%;
+    /* justify-content: center; */
+    /* margin-left: 20px; */
    }
-   
+   .bablu{
+    width: 100%;
+    height: 100%;
+   }
+   .flex{
+    flex-direction: row;
+    gap: 5px;
+   }
+   .lalu{
+    height: 100%;
+    width: 100%;
+   }
+   .something{
+    height: 75px;
+    width: 145px;
+    margin-top: 40px;
+    margin-left: 250px;
+
+
+   }
+   .some{
+    font-size: 30px;
+    /* height: 145px; */
+    /* width: 100%; */
+   }
+   .thing{
+    font-size: 10px;
+   }
+   .so{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+   }
+   .th{
+    font-size: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   }
+   .one{
+    font-size: 20px;
+    /* margin-left: 15px; */
+   }
+   nav ul li a{
+    display: none;
+   }
+   nav ul {
+    border: none;
+   }
 
 }
